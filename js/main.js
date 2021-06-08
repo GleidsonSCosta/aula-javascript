@@ -75,6 +75,8 @@ console.log(d.getMonth());//retona o mês do ano começando em Janeiro por 0
 console.log(d.getFullYear());//retona o ano 
 console.log("Hoje é dia " + d.getDate() + " do mês " + d.getMonth() + " de " + d.getFullYear());
 
+//Funcões
+
 function clicou(){
     document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
 
