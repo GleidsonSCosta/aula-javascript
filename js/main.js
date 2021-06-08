@@ -1,4 +1,4 @@
-/*
+
 var nome = "Gleidson de Souza Costa";
 var idade = 29;
 var idade2 = 10;
@@ -34,15 +34,15 @@ console.log(carros);
 console.log(carros[1].estilo);
 
 //CONDICIONAIS
-/* 
+
 var idade = 18;
 if(idade >= 18){
     alert("Maior de idade");
 }else{
     alert("Menor de idade");
 }
-*/
-/*
+
+
 var idade = prompt("Qual sua idade?") // comando (prompt) exibe uma caixa para o usuario digitar
 if (idade >= 18){
     alert("Maior de idade");
@@ -74,7 +74,7 @@ console.log(d.getDate());//retorna o dia do mês de 1 - 31
 console.log(d.getMonth());//retona o mês do ano começando em Janeiro por 0
 console.log(d.getFullYear());//retona o ano 
 console.log("Hoje é dia " + d.getDate() + " do mês " + d.getMonth() + " de " + d.getFullYear());
-*/
+
 function clicou(){
     document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
 
